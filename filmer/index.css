@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgb(228, 145, 145), rgb(238, 85, 85));
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 600px;
+    margin: 70px auto;
+    background-color: white;
+    padding: 40px;
+}
+
+main header {
+    padding-bottom: 40px;
+}
+
+main header button {
+    font-size: 20px;
+}
+
+main nav {
+    padding: 0 0 30px 0;    
+}
+
+main nav input[type=text] {
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+}
+
+#sectionFilmer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#sectionFilmer div {
+    padding: 10px;
+    border-bottom: 1px solid blueviolet;
+}
