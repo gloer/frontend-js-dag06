@@ -1,5 +1,8 @@
 const sectionFilmer = document.querySelector("#sectionFilmer");
 const inpSearch = document.querySelector("#inpSearch");
+const btnSkrekk = document.querySelector("#btnSkrekk");
+const btnDrama = document.querySelector("#btnDrama");
+const btnHumor = document.querySelector("#btnHumor");
 
 const filmer = [
     {tittel: "Sharknado", director: "Stanley Kubrick", genre: "Skrekk"},
